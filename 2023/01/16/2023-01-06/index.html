@@ -29,7 +29,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2023/01/16/2023-01-06/cyberprogrammer.png">
 <meta property="article:published_time" content="2023-01-17T06:46:03.000Z">
-<meta property="article:modified_time" content="2023-01-19T09:32:47.811Z">
+<meta property="article:modified_time" content="2023-01-19T09:36:30.708Z">
 <meta property="article:author" content="Linqing Li">
 <meta property="article:tag" content="OS">
 <meta property="article:tag" content="LAB">
@@ -164,7 +164,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/bear.jpg">
       <meta itemprop="name" content="Linqing Li">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="pluralitas non est ponenda sine necessitate">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -189,7 +189,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-01-19 01:32:47" itemprop="dateModified" datetime="2023-01-19T01:32:47-08:00">2023-01-19</time>
+                <time title="Modified: 2023-01-19 01:36:30" itemprop="dateModified" datetime="2023-01-19T01:36:30-08:00">2023-01-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -219,22 +219,22 @@
 <h3 id="find"><a href="#find" class="headerlink" title="find:"></a>find:</h3><p>find is a global search, so if necessary, please don’t use in web-server.</p>
 <pre><code> -name : search by name
  -perm : by mode privilage
+ -user : 
+ -size +n:
+ -group :
 </code></pre>
-<p>&amp;nbsp;-user : </p>
-<p>&amp;nbsp;-size +n:</p>
-<p>&amp;nbsp;-group :</p>
 <p>&amp;nbsp;-mtime -n +n:</p>
 <p>$\qquad\qquad$the last modify time<br>     -n：in n days, +n : before n days </p>
-<p>$\qquad$-atime -n +n:</p>
+<p>-atime -n +n:</p>
 <p>$\qquad\qquad$   the last view time</p>
-<p>$\qquad$-ctime -n + n:</p>
+<p>-ctime -n + n:</p>
 <p>$\qquad\qquad$the last privilage changed</p>
-<p>$\qquad$-nouser: the files have no user</p>
-<p>$\qquad$-nogroup</p>
-<p>$\qquad$-newer f1 !f2: files newer than f1, older than f2</p>
-<p>$\qquad$-type b&#x2F;d&#x2F;c&#x2F;p&#x2F;l&#x2F;f</p>
+<p>-nouser: the files have no user</p>
+<p>-nogroup</p>
+<p>-newer f1 !f2: files newer than f1, older than f2</p>
+<p>-type b&#x2F;d&#x2F;c&#x2F;p&#x2F;l&#x2F;f</p>
 <p>$\qquad\qquad$got the file(block device, directory, iostream device, pipe, link file, text file )</p>
-<p>$\qquad$-exec:</p>
+<p>-exec:</p>
 <p>$\qquad\qquad$with “{}” and “;“ for safety we can use -ok after -exec</p>
 <p>$\qquad\qquad$  eg: find . type f -exec ls -l {} ;</p>
 <p>metion: the output of path decided by your input. if input is absolute, the result should be absolute.</p>
@@ -261,8 +261,8 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/07/13/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2022/12/17/2022-12-17/" rel="prev" title="Workflow">
+      <i class="fa fa-chevron-left"></i> Workflow
     </a></div>
       <div class="post-nav-item">
     <a href="/2023/07/13/2023-1-9-2217/" rel="next" title="A new year plan">
@@ -335,14 +335,14 @@
     <img class="site-author-image" itemprop="image" alt="Linqing Li"
       src="/images/bear.jpg">
   <p class="site-author-name" itemprop="name">Linqing Li</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">pluralitas non est ponenda sine necessitate</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
